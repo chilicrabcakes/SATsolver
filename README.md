@@ -34,7 +34,7 @@ CNF: (1 2) (3 4) -> represents the propositional condition '(1 OR 2) AND (3 OR 4
 (sat? '4 ((1 2) (3 4)) returns (1 3 2 4)
 
 ### Speed
-As of now, this program solves a conditional of size 100 in less than a tenth of a second.
+As of now, this program solves a conditional of size 100 in less than a tenth of a second on my core i7 processor.
 
 Thank you!
 For comments, compliments, or constructive criticism please email ayushlall@g.ucla.edu
