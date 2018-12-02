@@ -28,7 +28,7 @@ CNF: (1 2) (3 4) -> represents the propositional condition '(1 OR 2) AND (3 OR 4
 > (sat? *number_of_variables* *cnf_condition*) 
 
 ##### Examples:
-(sat? '1 (1)) returns (1)
+(sat? '1 (1)) returns (1) <br></br>
 (sat? '4 ((1 2) (3 4)) returns (1 3 2 4)
 
 ### Speed
