@@ -16,6 +16,7 @@ Return value of the function: The function returns a list of numbers like (1 2 3
 
 ##### Examples:
 CNF: 1, is just the propositional condition '1'. This returns (1), that is the value '1' must be set to true for this condition to be satisfied.
+
 CNF: (1 2) (3 4) -> represents the propositional condition '(1 OR 2) AND (3 OR 4)'. Thus, a possible solution for this would be (1 3 2 4), or all four values set to true. Another possible solution would be (1 3 -2 -4) where '1' and '3' are true but '2' and '4' are false. 
 
 ### What you need:
@@ -28,7 +29,8 @@ CNF: (1 2) (3 4) -> represents the propositional condition '(1 OR 2) AND (3 OR 4
 > (sat? *number_of_variables* *cnf_condition*) 
 
 ##### Examples:
-(sat? '1 (1)) returns (1) <br></br>
+(sat? '1 (1)) returns (1) 
+
 (sat? '4 ((1 2) (3 4)) returns (1 3 2 4)
 
 ### Speed
