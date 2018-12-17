@@ -2,7 +2,7 @@
 A solver for the archetypal NP-Complete problem of satisfiability. Done as a homework assignment for UCLA's CS 161 - Fundamentals of Artificial Intelligence.
 
 ### What is the Satisfiability (SAT) problem?
-The SAT problem is a typical problem taught in Computer Science classes. Effectively, the problem is - given a condition of boolean variables, return a set of values for those variables that makes the condition return true. This problem is NP, which means that no solution to this problem exists such that it can solve the problem in worse-case polynomial time. It is also complete, that is, all problems in the class of NP can be reduced to the SAT problem in polynomial time.
+The SAT problem is a typical problem taught in Computer Science classes. Effectively, the problem is - given a condition of boolean variables, return a set of values for those variables that makes the condition return true. This problem is NP, which means that no solution to this problem exists (so far!) such that it can solve the problem in worse-case polynomial time. It is also complete, that is, all problems in the class of NP can be reduced to the SAT problem in polynomial time.
 
 More information can be found here: https://www.cs.cmu.edu/afs/cs/project/jair/pub/volume10/hogg99a-html/node3.html
 
